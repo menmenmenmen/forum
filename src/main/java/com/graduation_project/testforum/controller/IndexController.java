@@ -1,7 +1,7 @@
-package com.graduation_project.forum.controller;
+package com.graduation_project.testforum.controller;
 
-import com.graduation_project.forum.mapper.UserMapper;
-import com.graduation_project.forum.model.User;
+import com.graduation_project.testforum.mapper.UserMapper;
+import com.graduation_project.testforum.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
