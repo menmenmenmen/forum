@@ -1,4 +1,4 @@
-package com.graduation_project.forum.dto;
+package com.graduation_project.testforum.dto;
 
 public class AccessTokenDTO {
     private String client_id;

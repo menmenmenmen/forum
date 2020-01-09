@@ -1,4 +1,4 @@
-package com.graduation_project.forum.model;
+package com.graduation_project.testforum.model;
 
 public class User {
     private int id;

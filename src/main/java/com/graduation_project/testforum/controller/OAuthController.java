@@ -1,10 +1,10 @@
-package com.graduation_project.forum.controller;
+package com.graduation_project.testforum.controller;
 
-import com.graduation_project.forum.dto.AccessTokenDTO;
-import com.graduation_project.forum.dto.GitHubUserDTO;
-import com.graduation_project.forum.mapper.UserMapper;
-import com.graduation_project.forum.model.User;
-import com.graduation_project.forum.provider.GitHubProvider;
+import com.graduation_project.testforum.dto.AccessTokenDTO;
+import com.graduation_project.testforum.dto.GitHubUserDTO;
+import com.graduation_project.testforum.mapper.UserMapper;
+import com.graduation_project.testforum.model.User;
+import com.graduation_project.testforum.provider.GitHubProvider;
 import org.apache.catalina.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

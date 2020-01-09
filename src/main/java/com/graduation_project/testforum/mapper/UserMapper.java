@@ -1,6 +1,6 @@
-package com.graduation_project.forum.mapper;
+package com.graduation_project.testforum.mapper;
 
-import com.graduation_project.forum.model.User;
+import com.graduation_project.testforum.model.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;

@@ -1,8 +1,8 @@
-package com.graduation_project.forum.provider;
+package com.graduation_project.testforum.provider;
 
 import com.alibaba.fastjson.JSON;
-import com.graduation_project.forum.dto.AccessTokenDTO;
-import com.graduation_project.forum.dto.GitHubUserDTO;
+import com.graduation_project.testforum.dto.AccessTokenDTO;
+import com.graduation_project.testforum.dto.GitHubUserDTO;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
 

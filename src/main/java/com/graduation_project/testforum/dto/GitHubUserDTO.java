@@ -1,4 +1,4 @@
-package com.graduation_project.forum.dto;
+package com.graduation_project.testforum.dto;
 
 public class GitHubUserDTO {
     private String name;
