@@ -47,12 +47,14 @@ public class OAuthController {
             user.setAccountId(String.valueOf(gitHubUserDTO.getId()));
             user.setGmtCreate(System.currentTimeMillis());
             user.setGmtModified(user.getGmtCreate());
+            user.setBio(gitHubUserDTO.getBio());
+            user.setAvatarUrl(gitHubUserDTO.getAvatarUrl());
             userMapper.insert(user);
             response.addCookie(new Cookie("token",token));
             //request.getSession().setAttribute("user",gitHubUserDTO);
-            return "redirect:/index";
+            return "redirect:/";
         }else {
-            return "redirect:/index";
+            return "redirect:/";
         }
     }
 }
